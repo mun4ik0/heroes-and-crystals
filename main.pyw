@@ -55,9 +55,9 @@ class Enemies:
 
 
 # Главный герой
-char = Heroes(100,5,0,"hero",cell.height,cell.width)
+char = Heroes(100,5,0,"hero",cell.height + cell.height / 2,cell.width + cell.width / 2)
 #Второй герой
-second_char = Heroes(100,5,0,"second_hero_left",cell.height,cell.width * (size_w - 2))
+second_char = Heroes(100,5,0,"second_hero_left",cell.height + cell.height / 2,cell.width * (size_w - 2) + cell.width / 2)
 #Генерация врагов
 enemies =  []
 second_enemies =  []
